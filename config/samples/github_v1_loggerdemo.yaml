@@ -1,0 +1,12 @@
+apiVersion: github.github.com/v1
+kind: LoggerDemo
+metadata:
+  labels:
+    app.kubernetes.io/name: loggerdemo
+    app.kubernetes.io/instance: loggerdemo-sample
+    app.kubernetes.io/part-of: logger-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: logger-operator
+  name: loggerdemo-sample
+spec:
+  # TODO(user): Add fields here
