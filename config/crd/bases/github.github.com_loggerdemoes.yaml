@@ -39,6 +39,9 @@ spec:
           spec:
             description: LoggerDemoSpec defines the desired state of LoggerDemo
             properties:
+              count:
+                format: int32
+                type: integer
               foo:
                 description: Foo is an example field of LoggerDemo. Edit loggerdemo_types.go
                   to remove/update
