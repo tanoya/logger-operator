@@ -43,6 +43,8 @@ spec:
                 description: Foo is an example field of LoggerDemo. Edit loggerdemo_types.go
                   to remove/update
                 type: string
+              image:
+                type: string
             type: object
           status:
             description: LoggerDemoStatus defines the observed state of LoggerDemo

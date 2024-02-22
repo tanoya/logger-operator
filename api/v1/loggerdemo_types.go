@@ -29,7 +29,8 @@ type LoggerDemoSpec struct {
 	// Important: Run "make" to regenerate code after modifying this file
 
 	// Foo is an example field of LoggerDemo. Edit loggerdemo_types.go to remove/update
-	Foo string `json:"foo,omitempty"`
+	Foo   string `json:"foo,omitempty"`
+	Image string `json:"image,omitempty"`
 }
 
 // LoggerDemoStatus defines the observed state of LoggerDemo
